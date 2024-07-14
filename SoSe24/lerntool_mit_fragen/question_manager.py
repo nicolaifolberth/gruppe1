@@ -80,7 +80,7 @@ class QuestionManager(QDialog):
         project_file = resource_path(os.path.join('projects', f'{self.project_name}.json'))
         if os.path.exists(project_file):
             try:
-                with open(project_file, 'r') as f:
+                with open(project_file, 'r', encoding='utf-8') as f:
                     self.questions = json.load(f)
             except json.JSONDecodeError as e:
                 QMessageBox.critical(self, 'Fehler', f'Fehler beim Laden der Daten: {str(e)}')
@@ -97,7 +97,7 @@ class QuestionManager(QDialog):
     def save_questions(self):
         project_file = resource_path(os.path.join('projects', f'{self.project_name}.json'))
         try:
-            with open(project_file, 'w') as f:
+            with open(project_file, 'w', encoding='utf-8') as f:
                 json.dump(self.questions, f, ensure_ascii=False, indent=4)
         except IOError as e:
             QMessageBox.critical(self, 'Fehler', f'Fehler beim Speichern der Daten: {str(e)}')

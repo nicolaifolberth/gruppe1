@@ -90,7 +90,7 @@ class QuizApp(QMainWindow):
     def load_questions(self):
         project_file = resource_path(os.path.join('projects', self.project_name + '.json'))
         if os.path.exists(project_file):
-            with open(project_file, 'r') as f:
+            with open(project_file, 'r', encoding='utf-8') as f:
                 self.questions = json.load(f)
         else:
             self.questions = []

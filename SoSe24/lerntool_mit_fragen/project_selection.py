@@ -65,7 +65,7 @@ class ProjectSelection(QWidget):
         if ok and project_name:
             project_file = os.path.join('projects', project_name + '.json')
             if not os.path.exists(project_file):
-                with open(project_file, 'w') as f:
+                with open(project_file, 'w', encoding='utf-8') as f:
                     json.dump([], f)
                 self.load_projects()
             else:
@@ -120,7 +120,7 @@ class ProjectSelection(QWidget):
             self.question_manager.show()
             self.question_manager.raise_()
             self.question_manager.activateWindow()
-            self.question_manager.finished.connect(self.on_question_manager_closed)
+            self.question_manager.closed.connect(self.on_question_manager_closed)
             self.hide()
 
     def on_question_manager_closed(self):
@@ -164,16 +164,16 @@ class ProjectSelection(QWidget):
         project1_file = os.path.join('projects', project1 + '.json')
         project2_file = os.path.join('projects', project2 + '.json')
 
-        with open(project1_file, 'r') as f:
+        with open(project1_file, 'r', encoding='utf-8') as f:
             data1 = json.load(f)
-        with open(project2_file, 'r') as f:
+        with open(project2_file, 'r', encoding='utf-8') as f:
             data2 = json.load(f)
 
         merged_data = data1 + data2
         new_project_name = f"{project1}-{project2}"
         new_project_file = os.path.join('projects', new_project_name + '.json')
-        with open(new_project_file, 'w') as f:
-            json.dump(merged_data, f)
+        with open(new_project_file, 'w', encoding='utf-8') as f:
+            json.dump(merged_data, f, ensure_ascii=False, indent=4)
         self.load_projects()
         del self.project_to_merge
 
@@ -242,8 +242,6 @@ class ProjectSelection(QWidget):
         palette.setColor(QPalette.Highlight, QColor(42, 130, 218))
         palette.setColor(QPalette.HighlightedText, Qt.white)
         QApplication.instance().setPalette(palette)
-
-
 
     def show_easter_egg(self):
         QMessageBox.information(self, 'Über', 'Entwickler: Der Pfiff\nEmail: derpfiff@proton.me\n\nErstellt für die nächsten Jahrgänge und auf das der Fragenkatalog sich weiterhin nicht groß ändert.\n\nFeedback und Bug Reports sind herzlich willkommen!\nTrage gerne weitere Fragen zusammen, entwickle das Tool weiter oder refactore den Code nach Belieben.\n\nHappy Coding und viel Erfolg beim Lernen! 🚀')
