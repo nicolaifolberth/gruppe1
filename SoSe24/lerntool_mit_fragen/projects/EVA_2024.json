@@ -1,0 +1,1322 @@
+[
+    {
+        "frage": "Die Transportschicht...",
+        "antworten": [
+            {
+                "text": "...setzt auf die Vermittlungsschicht auf und stellt der Sitzungsschicht eine transparente, lückenlose und gesicherte Ende-zu-Ende Datenübertragung zur Verfügung.",
+                "korrekt": true
+            },
+            {
+                "text": "...setzt auf der Leitungsschicht auf und stellt der Anwendungsschicht eine transparente, lückenlose und gesicherte Ende-zu-Ende Datenübertragung.",
+                "korrekt": false
+            },
+            {
+                "text": "...setzt auf der Leitungsschicht auf und steuert zeitlich und logisch getrennte Kommunikation zwischen Endgeräten unabhängig vom konkreten Übertragungsmedium.",
+                "korrekt": false
+            },
+            {
+                "text": "...definiert die elektronische, mechanische und funktionale Schnittstelle zum Übertragungsmedium auf Ebene von Bits.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Entitäten der JPA ist falsch?",
+        "antworten": [
+            {
+                "text": "Eine Entität wird über die Annotation @Entity markiert.",
+                "korrekt": false
+            },
+            {
+                "text": "Verbundene Entitäten müssen nicht gleichzeitig geladen werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Entitäten dürfen keine Vererbung nutzen.",
+                "korrekt": true
+            },
+            {
+                "text": "Eine Entität ist eine nicht finale Java-Klasse.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der folgenden Aussagen ist richtig? Bei einem Mutex...",
+        "antworten": [
+            {
+                "text": "...kann ein Kontrollfluss ausnahmsweise auf einen gesperrten Bereich zugreifen.",
+                "korrekt": false
+            },
+            {
+                "text": "...sollte der kritische Bereich so klein wie möglich gehalten werden.",
+                "korrekt": true
+            },
+            {
+                "text": "...kann es nicht zu Verklemmung kommen.",
+                "korrekt": false
+            },
+            {
+                "text": "...wird früher oder später jeder Kontrollfluss bedient.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zum Transmission Control Protocol (TCP) ist falsch?",
+        "antworten": [
+            {
+                "text": "TCP bietet einen hohen Grad an Zuverlässigkeit.",
+                "korrekt": false
+            },
+            {
+                "text": "TCP ist ein verbindungsorientiertes Protokoll.",
+                "korrekt": false
+            },
+            {
+                "text": "TCP verringert die Netzwerklast signifikant.",
+                "korrekt": true
+            },
+            {
+                "text": "TCP stellt die korrekte Reihenfolge der übertragenden Daten sicher.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der Aussagen trifft zu? Java-Quellcode wird...",
+        "antworten": [
+            {
+                "text": "...ausschließlich kompiliert.",
+                "korrekt": false
+            },
+            {
+                "text": "...interpretiert und von der JVM zur Laufzeit kompiliert.",
+                "korrekt": false
+            },
+            {
+                "text": "...zu Bytecode kompiliert, welcher von der JVM zur Laufzeit interpretiert wird.",
+                "korrekt": true
+            },
+            {
+                "text": "...zu Binärcode kompiliert, welcher von der JVM zur Laufzeit ausgeführt wird.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Transparenzen ist richtig?",
+        "antworten": [
+            {
+                "text": "Verteilungstransparenz bedeutet, dass der Dienstanforderer über einen dem verteilten System bekannten Namen auf Komponenten zugreift.",
+                "korrekt": false
+            },
+            {
+                "text": "Migrationstransparenz bedeutet, dass die Verlagerung von Komponenten innerhalb des verteilten Systems ohne Kenntnis der Dienstbenutzer erfolgen kann.",
+                "korrekt": true
+            },
+            {
+                "text": "Ortstransparenz bedeutet, dass der Zugriff auf lokale und entfernte Dienste auf die gleiche Art erfolgt.",
+                "korrekt": false
+            },
+            {
+                "text": "Zugriffstransparenz bedeutet, dass das verteilte System gleichzeitigen transparenten Zugriff auf Ressourcen ermöglicht (gegebenenfalls durch Replikationen und anschließende Synchronisation).",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Ein Kunde fordert, die Implementierung eines Webservice, welcher lediglich das Ergebniseiner Anfrage zurückgibt, mit EJB-Komponenten zu realisieren. Welche Komponente wäre dafür am besten geeignet?",
+        "antworten": [
+            {
+                "text": "Message Driven Bean",
+                "korrekt": false
+            },
+            {
+                "text": "Singleton Session Bean",
+                "korrekt": false
+            },
+            {
+                "text": "Stateful Session Bean",
+                "korrekt": false
+            },
+            {
+                "text": "Stateless Session Bean",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage in Bezug auf Sockets in Java ist falsch?",
+        "antworten": [
+            {
+                "text": "Sockets können in heterogenen Systemlandschaften zur Kommunikation eingesetzt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Mit der Methode accept() der Klasse ServerSocket wird auf eine eingehende Verbindung gewartet.",
+                "korrekt": false
+            },
+            {
+                "text": "Für den Informationsaustausch über Sockets muss jeweils ein Protokoll definiert werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Kommunikation über ein Socket erfolgt unidirektional.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Java RMI trifft nicht zu?",
+        "antworten": [
+            {
+                "text": "RMI erzeugt auf der Client-Seite ein Proxy-Objekt, dass das entfernte Objekt simuliert.",
+                "korrekt": false
+            },
+            {
+                "text": "RMI muss auf der Serverseite als Socket implementiert werden.",
+                "korrekt": true
+            },
+            {
+                "text": "RMI ist die objektorientierte Variante des Remote Procedure Call (RPC) in Java.",
+                "korrekt": false
+            },
+            {
+                "text": "RMI erlaubt eine Synchrone Kommunikation mit Aufruf und Ergebnisrückgabe.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Das User Datagram Protocol (UDP) ist ein Protokoll der...",
+        "antworten": [
+            {
+                "text": "Darstellungsschicht",
+                "korrekt": false
+            },
+            {
+                "text": "Transportschicht",
+                "korrekt": true
+            },
+            {
+                "text": "Vermittlungsschicht",
+                "korrekt": false
+            },
+            {
+                "text": "Leitungsschicht",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welcher Dienst ist kein implizit bereitgestellter Dienst eines JEE Application Servers und muss vom Entwickler an expliziten Stellen aufgerufen werden?",
+        "antworten": [
+            {
+                "text": "Component Life Cycle",
+                "korrekt": false
+            },
+            {
+                "text": "Security",
+                "korrekt": false
+            },
+            {
+                "text": "Java Persitence API",
+                "korrekt": true
+            },
+            {
+                "text": "Dependency Injection",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu JEE trifft nicht zu?",
+        "antworten": [
+            {
+                "text": "JEE basiert auf der n-Tier Architektur.",
+                "korrekt": false
+            },
+            {
+                "text": "JEE stellt eine Laufzeitumgebung für Komponenten zur Verfügung.",
+                "korrekt": false
+            },
+            {
+                "text": "JEE ist ein von Sun (Oracle) implementierter Application Server für Geschäftsanwendungen.",
+                "korrekt": true
+            },
+            {
+                "text": "JEE bietet implizite und explizite Dienste für Komponenten.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der im Folgenden beschriebenen Vererbungsabbildungen gibt es nicht in der Java Persistence API?",
+        "antworten": [
+            {
+                "text": "Property-Table: Alle Attribute der Klasse werden in einer Mastertabelle gespeichert. Pro Objekt wird eine Menge von Attribut-Wert Paaren in einer Property-Table gespeichert.",
+                "korrekt": true
+            },
+            {
+                "text": "Table-per-Class: Jede Klasse wird mit all ihren Attributen in einer eigenen Tabelle gespeichert.",
+                "korrekt": false
+            },
+            {
+                "text": "Single-Table: Eine Tabelle wird für alle Klassen gleichermaßen verwendet, wobei nicht benötigte Spalten einfach leer gelassen werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Joined: Gemeinsame Attribute werden in einer Tabelle gemeinsam gespeichert. Klassenspezifische Attribute werden pro Klasse in jeweiligen Extratabellen gespeichert.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welcher der folgenden Anforderungen an ein verteiltes System ist eine nichtfunktionale Anforderung (NFA)?",
+        "antworten": [
+            {
+                "text": "Es soll der Kunde erst gelöscht werden können, wenn keiner seiner Verträge mehr abgerechnet werden kann.",
+                "korrekt": false
+            },
+            {
+                "text": "Es soll ein Vertrag zu einem Kunden erstellt werden können, der zu einem bestimmten Zeitpunkt abgerechnet wird.",
+                "korrekt": false
+            },
+            {
+                "text": "Es soll die Bearbeitung eines Vertrages nicht behindert werden, wenn gleichzeitig 1000 andere Verträge abgerechnet werden.",
+                "korrekt": true
+            },
+            {
+                "text": "Es soll eine E-Mail an den Kunden verschickt werden, wenn sein Vertrag abgerechnet wurde.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist kein Merkmal kommunikationsorientierter Middleware?",
+        "antworten": [
+            {
+                "text": "Behandelt Übertragungsfehler",
+                "korrekt": false
+            },
+            {
+                "text": "Stellt eine Laufzeitumgebung mit Diensten für Komponenten zur Verfügung",
+                "korrekt": true
+            },
+            {
+                "text": "Bietet eine Abstraktion von der Netzwerkkommunikation",
+                "korrekt": false
+            },
+            {
+                "text": "Übernimmt Marshalling/Unmarshalling von Daten",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage ist korrekt? Race Conditions können ...",
+        "antworten": [
+            {
+                "text": "... ein deterministisches Fehlverhalten erzeugen.",
+                "korrekt": false
+            },
+            {
+                "text": "... durch Konstrukte wie bspw. eine Semaphor vermieden werden.",
+                "korrekt": true
+            },
+            {
+                "text": "... immer leicht identifiziert und daher vernachlässigt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "... immer nur bei einzelnen Kontrollflüssen auftreten.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der nachfolgenden Arten von Anfragen gibt die Kontrolle unmittelbar an den Client zurück, wobei der Server anschließend den Client zur Übermittlung des Ergebnisses aufruft?",
+        "antworten": [
+            {
+                "text": "Einweganfrage",
+                "korrekt": false
+            },
+            {
+                "text": "Asynchrone Anfrage",
+                "korrekt": true
+            },
+            {
+                "text": "Synchrone Anfrage",
+                "korrekt": false
+            },
+            {
+                "text": "Verzögerte synchrone Anfrage",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Dependency Injection dient...",
+        "antworten": [
+            {
+                "text": "... dem Anwendungsserver als Anleitung zum Darstellen der Komponenten.",
+                "korrekt": false
+            },
+            {
+                "text": "... dem Hinzufügen von Metadaten zu Methoden.",
+                "korrekt": false
+            },
+            {
+                "text": "... der Initialisierung von referenzierten Objekten.",
+                "korrekt": true
+            },
+            {
+                "text": "... einer Entity Bean zur Verbindung mit der Datenbank.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist keine Aufgabe des Entitymanagers der Java Persistance API (JPA)?",
+        "antworten": [
+            {
+                "text": "Schnittstelle zum Laden von Entitäten",
+                "korrekt": false
+            },
+            {
+                "text": "Schnittstelle zur Persistierung von Entitäten",
+                "korrekt": false
+            },
+            {
+                "text": "Erzeugen von Datenbanktabellen",
+                "korrekt": true
+            },
+            {
+                "text": "Transparente Verwaltung von Entitäten und Änderungen",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was gibt das oben-stehende Java-Codebeispiel auf der Konsole aus?",
+        "antworten": [
+            {
+                "text": "Es wird nichts ausgegeben. Stattdessen wird eine NullPointerException geworfen.",
+                "korrekt": false
+            },
+            {
+                "text": "Ausgabe von null",
+                "korrekt": false
+            },
+            {
+                "text": "Ausgabe von 68",
+                "korrekt": false
+            },
+            {
+                "text": "Es wird nichts ausgegeben. Stattdessen wird eine IndexOutOfBoundsException geworfen.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": "int[] numbers1 = new int[] {23, 56, 78};\nint[] numbers2 = new int[5];\nnumbers2 = numbers1;\nSystem.out.println(numbers2[3]);\n\n"
+    },
+    {
+        "frage": "Welche Aussage zum CachedThreadPool ist richtig?",
+        "antworten": [
+            {
+                "text": "Die Threads werden erst nach 100 Sekunden gestartet.",
+                "korrekt": false
+            },
+            {
+                "text": "Es werden in jedem Fall vier Threads erzeugt.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Zeile executor.shutdown(); bricht sofort alle laufenden Threads ab.",
+                "korrekt": false
+            },
+            {
+                "text": "Höchstwahrscheinlich werden nur zwei Threads erzeugt.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der folgenden Aussagen zur Implementierung der Klasse Beispiel ist falsch?",
+        "antworten": [
+            {
+                "text": "Nach dem Aufruf von t2.join() ist der Thread t2 beendet.",
+                "korrekt": false
+            },
+            {
+                "text": "Nach dem Aufruf des Konstruktors befindet sich der Thread im Zustand „initial“.",
+                "korrekt": false
+            },
+            {
+                "text": "Nach dem Aufruf von t1.interrupt() ist der Thread t1 definitiv beendet.",
+                "korrekt": true
+            },
+            {
+                "text": "Nach dem Aufruf von t1.start() ist der Thread t1 im Zustand „Runable“ bzw. „Running“.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": "public class Beispiel implements Runnable {\n    @Override\n    public void run() {\n        try {\n            for (int I = 0; I < 10; I++) {\n                Thread.sleep(10);\n            }\n        } catch (InterruptedException e) {\n            System.out.println(\"interrupted\");\n        }\n    }\n\n    public static void main(String[] args) throws InterruptedException {\n        Thread t1 = new Thread(new Beispiel());\n        Thread t2 = new Thread(new Beispiel());\n\n        t1.start();\n        t2.start();\n\n        t1.interrupt();\n        t2.join();\n    }\n}\n"
+    },
+    {
+        "frage": "Welche Aussage zu Java Interfaces ist falsch?",
+        "antworten": [
+            {
+                "text": "Ein Java Interface kann Attribute enthalten, die aber nur konstant sein dürfen.",
+                "korrekt": false
+            },
+            {
+                "text": "Ein Java Interface kann Methodendeklarationen enthalten, aber keine Implementierungen.",
+                "korrekt": false
+            },
+            {
+                "text": "Ein Java Interface kann instanziiert werden.",
+                "korrekt": true
+            },
+            {
+                "text": "Ein Java Interface kann das Verhalten eines Typs spezifizieren.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu reinen Peer-to-Peer (P2P) Modellen ist nicht korrekt?",
+        "antworten": [
+            {
+                "text": "Alle teilnehmenden Rechner können direkt miteinander kommunizieren.",
+                "korrekt": false
+            },
+            {
+                "text": "Es existiert keine zentrale Instanz, die die Kommunikation koordiniert.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Koordination der Kommunikation muss durch das Netz selbst gewährleistet werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Es existiert eine strikte Trennung zwischen Diensterbringern und -konsumenten.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist keine Eigenschaft eines Threadpools in Java?",
+        "antworten": [
+            {
+                "text": "Ein Threadpool kann bei Bedarf neue Threads erzeugen, aber niemals einen Thread löschen.",
+                "korrekt": true
+            },
+            {
+                "text": "Nicht jede Aufgabe wird in einem Threadpool sofort verarbeitet.",
+                "korrekt": false
+            },
+            {
+                "text": "Hält eine Anzahl bereits erzeugter und gestarteter Threads bereit.",
+                "korrekt": false
+            },
+            {
+                "text": "Ist insbesondere bei Anwendungen mit sehr vielen gleichartigen Aufgaben sinnvoll.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist kein Anwendungsfall für parallele Verarbeitung?",
+        "antworten": [
+            {
+                "text": "Die Datengrundlage ist so umfangreich, dass eine Rechnereinheit sie nicht mehr verarbeiten kann.",
+                "korrekt": false
+            },
+            {
+                "text": "Ein System muss mehrere Verarbeitungen zur gleichen Zeit ausführen.",
+                "korrekt": false
+            },
+            {
+                "text": "Ein System muss gegen Ausfall geschützt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Ein System muss nur für einen Benutzer gleichzeitig konstruiert werden.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zum unten gezeigten Quellcode ist falsch?",
+        "antworten": [
+            {
+                "text": "Die Variable attributeA sollte besser als private Variable mit einer Get- und Set-Methode implementiert werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Methode setAttributeB ändert den Wert der Variable attributeB auf einen übergebenen Wert.",
+                "korrekt": false
+            },
+            {
+                "text": "Das Schlüsselwort „this“ in der Methode setAttributeB ist implizit gesetzt und kann daher auch weggelassen werden.",
+                "korrekt": true
+            },
+            {
+                "text": "Die Variable attributeC ist als Konstante definiert und benötigt daher keine Get- und Set-Methode.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": "public class SimpleClass {\n    public int attributeA;\n    private int attributeB;\n    public static final int attributeC = 42;\n\n    public int getAttributeB() {\n        return attributeB;\n    }\n\n    public void setAttributeB(int attributeB) {\n        this.attributeB = attributeB;\n    }\n}\n"
+    },
+    {
+        "frage": "Welche Aussage in Bezug auf Relationen mittels Java Persistence API (JPA) ist falsch?",
+        "antworten": [
+            {
+                "text": "Das Laden einer Entität bedingt immer auch das Laden aller mit ihr verbundenen Entitäten.",
+                "korrekt": true
+            },
+            {
+                "text": "Es existieren 4 Varianten der Kardinalität einer Relation: OneToOne, OneToMany, ManyToOne und ManyToMany.",
+                "korrekt": false
+            },
+            {
+                "text": "Relationen können einfach gerichtet (unidirektional) oder in beide Richtungen (bidirektional) angelegt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Beim Laden einer Menge von Entitäten kann automatisch über eine Annotation eine Sortierung herbeigeführt werden.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Die Java-Methode count() wird von zwei Threads nebenläufig zur gleichen Zeit aufgerufen. Welche der folgenden Aussagen trifft dabei nicht zu?",
+        "antworten": [
+            {
+                "text": "Bei dem Attribut counter handelt es sich um eine geteilte Ressource, bei der es ohne entsprechenden Schutz vor Mehrfachzugriffen zu einer RaceCondition kommen könnte.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Ergänzung des Schlüsselwortes synchronized in der Methodenensignatur hätte den gleichen Effekt wie die Überprüfung des Attributs isCounting innerhalb derselben Schleife.",
+                "korrekt": false
+            },
+            {
+                "text": "Ein Lock-Objekt und der Aufruf der Methoden lock() und unlock() würden die gleiche Funktionalität wie die Prüfung auf das Attribut isCounting erzeugen.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Überprüfung des Attributes isCounting hat keinen Effekt, da es bis pden Unead (Anm.: leider unleserlich) separat gesetzt und gelesen wird. Stattdessen muss das Schlüsselwort synchronized oder ein lock-Objekt gesetzt werden.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": "public class Counter {\n    private static boolean isCounting = false;\n    private static int counter = 0;\n\n    public static void count(int value) throws InterruptedException {\n        while (isCounting) {\n            sleep(10);\n        }\n        isCounting = true;\n        while (value > 0) {\n            counter = counter + value;\n            value--;\n        }\n        isCounting = false;\n    }\n}\n"
+    },
+    {
+        "frage": "Welche Aussage zur Container-Verwaltung mit Docker und Kubernetes ist falsch?",
+        "antworten": [
+            {
+                "text": "Aus jedem Docker-Image wird ein Container erstellt.",
+                "korrekt": true
+            },
+            {
+                "text": "Mittels Kubernetes können Container auf Hosts erstellt und vernichtet werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Container sind voneinander isoliert laufende Prozesse auf einem Host.",
+                "korrekt": false
+            },
+            {
+                "text": "Docker-Images können versioniert gespeichert werden.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welches ist kein Programmiermodell für kommunikationsorientierte Middleware?",
+        "antworten": [
+            {
+                "text": "Petri-Netze",
+                "korrekt": true
+            },
+            {
+                "text": "Remote-Procedure-Call",
+                "korrekt": false
+            },
+            {
+                "text": "Remote-Method-Invocation",
+                "korrekt": false
+            },
+            {
+                "text": "Message-oriented-Middleware",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Transparenzen ist richtig?",
+        "antworten": [
+            {
+                "text": "Verteilungstransparenz bedeutet, dass der Dienstanforderer über einen dem verteilten System bekannten Namen auf Komponenten zugreift.",
+                "korrekt": false
+            },
+            {
+                "text": "Migrationstransparenz bedeutet, dass die Verlagerung von Komponenten innerhalb des verteilten Systems ohne Kenntnis der Dienstbenutzer erfolgen kann.",
+                "korrekt": true
+            },
+            {
+                "text": "Ortstransparenz bedeutet, dass der Zugriff auf lokale und entfernte Dienste auf die gleiche Art erfolgt.",
+                "korrekt": false
+            },
+            {
+                "text": "Zugriffstransparenz bedeutet, dass das verteilte System gleichzeitigen transparenten Zugriff auf Ressourcen ermöglicht.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was muss der Entwickler beim Implementieren einer JEE-Komponente explizit berücksichtigen?",
+        "antworten": [
+            {
+                "text": "Es müssen immer alle abhängigen Komponenten mit deployt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Alle Bestandteile wie z.B. Klassen müssen für das Deployment speziell verpackt werden.",
+                "korrekt": true
+            },
+            {
+                "text": "Er muss eine statische main Methode als Einstiegspunkt für die Ausführung definieren.",
+                "korrekt": false
+            },
+            {
+                "text": "Der Instantiierungszeitpunkt der Komponenten muss definiert werden.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welches ist keine Eigenschaft paralleler Verarbeitung?",
+        "antworten": [
+            {
+                "text": "Das Problem wird in diskrete Teilprobleme zerlegt.",
+                "korrekt": false
+            },
+            {
+                "text": "kann durch die gleichzeitige Nutzung von mehreren Prozessoren oder Rechnern erfolgen.",
+                "korrekt": false
+            },
+            {
+                "text": "Je Zeiteinheit wird lediglich ein Befehl ausgeführt.",
+                "korrekt": true
+            },
+            {
+                "text": "Ab einer bestimmten Anzahl von Ausführungspfaden wirkt sich die parallele Verarbeitung negativ auf die Ausführungsgeschwindigkeit aus.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welches Problem kann durch die Einführung eines Mutex bei nebenläufiger Verarbeitung ausgelöst werden?",
+        "antworten": [
+            {
+                "text": "Verlorene Aktualisierungen",
+                "korrekt": false
+            },
+            {
+                "text": "Race Condition",
+                "korrekt": false
+            },
+            {
+                "text": "Verklemmungen",
+                "korrekt": true
+            },
+            {
+                "text": "Inkonsistente Analyseergebnisse",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist kein Designziel der Sprache Java?",
+        "antworten": [
+            {
+                "text": "Nebenläufig",
+                "korrekt": false
+            },
+            {
+                "text": "Plattformunabhängigkeit",
+                "korrekt": false
+            },
+            {
+                "text": "Robust",
+                "korrekt": false
+            },
+            {
+                "text": "Kompakte Schreibweise",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Klassen in Java ist richtig?",
+        "antworten": [
+            {
+                "text": "Klassen ohne spezifizierte Elternklasse erben von der Klasse java.lang.Object.",
+                "korrekt": true
+            },
+            {
+                "text": "Es muss immer eine Elternklasse angegeben werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Klassen ohne spezifizierte Elternklasse erben implizit von der Klasse java.lang.Object und java.lang.Main, wenn sie eine main(...)-Methode enthalten.",
+                "korrekt": false
+            },
+            {
+                "text": "Klassen müssen immer von der Klasse java.lang.Main erben.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Locks in Java ist korrekt?",
+        "antworten": [
+            {
+                "text": "Wird eine Methode bereits durch einen anderen Thread blockiert, bricht der erneut aufrufende Thread mit einer Exception ab.",
+                "korrekt": false
+            },
+            {
+                "text": "Mit der Methode Lock() kann ein komplettes Objekt vor Parallelzugriff geschützt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Mit dem Schlüsselwort synchronized kann eine Methode entweder für den lesenden oder den schreibenden Zugriff gesperrt werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Das Konstrukt Lock kann zu einer Verklemmung führen.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist kein Ziel der nebenläufigen Verarbeitung?",
+        "antworten": [
+            {
+                "text": "Eine umfangreiche und komplexe Problemstellung handhaben",
+                "korrekt": false
+            },
+            {
+                "text": "Verbesserung des Programmverhaltens für den Benutzer",
+                "korrekt": false
+            },
+            {
+                "text": "Das Problem in geringerer Zeit lösen",
+                "korrekt": false
+            },
+            {
+                "text": "Qualität und Wartbarkeit des Codes steigern",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welches Ziel wird mit einer mehrschichtigen Architektur nicht verfolgt?",
+        "antworten": [
+            {
+                "text": "Konzeption einer grundlegenden Verteilung von Komponenten in einem System.",
+                "korrekt": false
+            },
+            {
+                "text": "Trennung der Komponenten nach den Belangen Präsentation, Logik und Datenhaltung.",
+                "korrekt": false
+            },
+            {
+                "text": "Definition eines detaillierten Plans zur Implementierung und Test eines verteilten Systems.",
+                "korrekt": true
+            },
+            {
+                "text": "Beherrschung der Komplexität eines verteilten Systems, die durch die funktionalen und nicht funktionalen Anforderungen erzeugt wird.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist keine Aufgabe von Middleware?",
+        "antworten": [
+            {
+                "text": "Übernahme von anwendungsunabhängigen Diensten, wie Naming oder Transaction.",
+                "korrekt": false
+            },
+            {
+                "text": "Implementierung von fachlicher Logik.",
+                "korrekt": true
+            },
+            {
+                "text": "Überwindung der Heterogenität von beteiligten Systemen.",
+                "korrekt": false
+            },
+            {
+                "text": "Auslagerung technischer Details der Kommunikation.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist keine Eigenschaft der Sprache Java?",
+        "antworten": [
+            {
+                "text": "Vollständig Objektorientiert",
+                "korrekt": false
+            },
+            {
+                "text": "Mehrfachvererbung",
+                "korrekt": true
+            },
+            {
+                "text": "Plattformunabhängig",
+                "korrekt": false
+            },
+            {
+                "text": "Nebenläufigkeit",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der folgenden beschriebenen Methoden kann nicht zur Interprozesskommunikation genutzt werden?",
+        "antworten": [
+            {
+                "text": "Datenaustausch über gemeinsam genutzte Ströme.",
+                "korrekt": false
+            },
+            {
+                "text": "Datenaustausch über speziell zur Verfügung gestelltem Speichermedium (shared memory).",
+                "korrekt": false
+            },
+            {
+                "text": "Datenaustausch über gemeinsam genutzte Threads.",
+                "korrekt": true
+            },
+            {
+                "text": "Datenaustausch über gesendete und empfangene Nachrichten.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist kein Vorteil von Quarkus bei der Entwicklung von Cloud-NativeApps?",
+        "antworten": [
+            {
+                "text": "Geringer Speicherverbrauch je Instanz",
+                "korrekt": false
+            },
+            {
+                "text": "Schnelle Ladezeiten beim Start",
+                "korrekt": false
+            },
+            {
+                "text": "Integration beliebiger Java-Frameworks",
+                "korrekt": true
+            },
+            {
+                "text": "Nah am JEE Standard",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Spring ist falsch?",
+        "antworten": [
+            {
+                "text": "Spring-Applikationen können auf x-beliebigen Webserver out-of-thebox laufen.",
+                "korrekt": false
+            },
+            {
+                "text": "Der Spring-Applikationsserver bietet Funktionen wie Clustering und TimeService.",
+                "korrekt": true
+            },
+            {
+                "text": "Spring-Applikationen und -komponenten können einfach getestet werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Das Spring-Ökosystem wird oft und schnell mit neuen Features erweitert.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Ein System zur tageweisen Vermietung ungenutzter privater Räume soll weltweit angeboten werden. Welche Aussage zu den Arten von Anforderungen ist falsch?",
+        "antworten": [
+            {
+                "text": "Die Bestätigung einer Buchung per Mail ist eine nicht funktionale Anforderung",
+                "korrekt": true
+            },
+            {
+                "text": "Das suchen von Räumen gefiltert nach Städten ist eine funktionale Anforderung",
+                "korrekt": false
+            },
+            {
+                "text": "Das buchen soll jederzeit möglich sein ist eine nicht funktionale Anforderung",
+                "korrekt": false
+            },
+            {
+                "text": "Die Erweiterung um eine neue Suchfunktion soll ohne Ausfall des Systems möglich sein ist eine nicht funktionale Anforderung",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Middleware ist korrekt?",
+        "antworten": [
+            {
+                "text": "Kommunikationsorientierte Middleware stellt fachlich unabhängige Dienste für die Entwicklung verteilter Anwendungen zur Verfügung.",
+                "korrekt": false
+            },
+            {
+                "text": "Das Framework einer anwendungsorientierten Middleware bestimmt Erstell- und Ausführungszeitpunkt der selbst entwickelten Komponenten.",
+                "korrekt": true
+            },
+            {
+                "text": "Das Nachrichtenbasierte Modell kommunikationsorientierter Middleware unterstützt wie Remote Method Incovation eine synchrone verteilte Kommunikation.",
+                "korrekt": false
+            },
+            {
+                "text": "Kommunikationsorientierte Middleware baut auf den Diensten anwendungsorientierten Middleware auf.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was wird nicht benötigt, wenn zwei Knoten in einem Netzwerk Datagramme via UDP austauschen wollen?",
+        "antworten": [
+            {
+                "text": "Eine physische Verbindung um Bits austauschen zu können",
+                "korrekt": false
+            },
+            {
+                "text": "Ein Protokoll der Verbindungsschicht für die Adressierung der Datagramme",
+                "korrekt": false
+            },
+            {
+                "text": "Ein Protokoll der Sitzungsschicht, um Datagramme korrekt zuzuordnen",
+                "korrekt": true
+            },
+            {
+                "text": "Sockets über die Datagramme geschickt oder empfangen werden können",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Stelle im Code ist falsch?",
+        "antworten": [
+            {
+                "text": "Zeile 8 - Es müsste testStringSplit == \"Fliegen\" sein",
+                "korrekt": false
+            },
+            {
+                "text": "Zeile 5 - Es müsste String.split(testString, \" \") sein",
+                "korrekt": false
+            },
+            {
+                "text": "Zeile 9 - remove kann nicht auf einem Array ausgeführt werden",
+                "korrekt": true
+            },
+            {
+                "text": "Zeile 7 - for-Schleifen brauchen immer eine Zählvariable vom Typ int",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": "```java\npublic static void main(String[] args) {\n    String testString = \"wenn Fliegen hinter Fliegen fliegen, fliegen Fliegen Fliegen hinterher.\";\n    String[] testStringSplit = testString.split(\" \");\n    for (int i = 0; i < testStringSplit.length; i++) {\n        if (testStringSplit[i].equals(\"Fliegen\")) {\n            testStringSplit.remove(i);\n        }\n    }\n}\n```"
+    },
+    {
+        "frage": "Welche Aussage zu folgendem Snippet ist falsch?",
+        "antworten": [
+            {
+                "text": "Die Ausgabe ist: Das Segelboot bewegt sich. Das Boot setzt die Segel.",
+                "korrekt": false
+            },
+            {
+                "text": "Das Interface Fortbewegungsmittel kann in beliebig vielen Klassen implementiert werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Beliebig viele Klassen können von der Klasse Boot erben.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Klasse Segelboot muss die Methode beschleunigen() implementieren, damit sie nicht abstrakt ist.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": "public class Main {\n    public static void main(String[] args) {\n        Segelboot segelboot = new Segelboot();\n        segelboot.bewegen();\n        segelboot.beschleunigen();\n    }\n}\n\ninterface Fortbewegungsmittel {\n    void bewegen();\n}\n\nabstract class Boot implements Fortbewegungsmittel {\n    public void beschleunigen() {\n        System.out.println(\"Das Boot beschleunigt.\");\n    }\n}\n\nclass Segelboot extends Boot {\n    @Override\n    public void bewegen() {\n        System.out.println(\"Das Segelboot bewegt sich.\");\n    }\n\n    public void beschleunigen() {\n        System.out.println(\"Das Boot setzt die Segel.\");\n    }\n}\n"
+    },
+    {
+        "frage": "Welche Aussage zum Transmission Control Protocol (TCP) ist falsch?",
+        "antworten": [
+            {
+                "text": "TCP bietet einen hohen Grad an Zuverlässigkeit.",
+                "korrekt": false
+            },
+            {
+                "text": "TCP ist ein verbindungsorientiertes Protokoll.",
+                "korrekt": false
+            },
+            {
+                "text": "TCP verringert die Netzwerklast signifikant.",
+                "korrekt": true
+            },
+            {
+                "text": "TCP stellt die korrekte Reihenfolge der übertragenden Daten sicher.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche der Aussagen trifft zu? Java-Quellcode wird...",
+        "antworten": [
+            {
+                "text": "...ausschließlich kompiliert.",
+                "korrekt": false
+            },
+            {
+                "text": "...interpretiert und von der JVM zur Laufzeit kompiliert.",
+                "korrekt": false
+            },
+            {
+                "text": "...zu Bytecode kompiliert, welcher von der JVM zur Laufzeit interpretiert wird.",
+                "korrekt": true
+            },
+            {
+                "text": "...zu Binärcode kompiliert, welcher von der JVM zur Laufzeit ausgeführt wird.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Entitäten der JPA ist falsch?",
+        "antworten": [
+            {
+                "text": "Eine Entität wird über die Annotation @Entity markiert.",
+                "korrekt": false
+            },
+            {
+                "text": "Verbundene Entitäten müssen nicht gleichzeitig geladen werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Entitäten dürfen keine Vererbung nutzen.",
+                "korrekt": true
+            },
+            {
+                "text": "Eine Entität ist eine nicht finale Java-Klasse.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu Java RMI trifft nicht zu?",
+        "antworten": [
+            {
+                "text": "RMI erzeugt auf der Client-Seite ein Proxy-Objekt, dass das entfernte Objekt simuliert.",
+                "korrekt": false
+            },
+            {
+                "text": "RMI muss auf der Serverseite als Socket implementiert werden.",
+                "korrekt": true
+            },
+            {
+                "text": "RMI ist die objektorientierte Variante des Remote Procedure Call (RPC) in Java.",
+                "korrekt": false
+            },
+            {
+                "text": "RMI erlaubt eine Synchrone Kommunikation mit Aufruf und Ergebnisrückgabe.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zu reinen Peer-to-Peer (P2P) Modellen ist nicht korrekt?",
+        "antworten": [
+            {
+                "text": "Alle teilnehmenden Rechner können direkt miteinander kommunizieren.",
+                "korrekt": false
+            },
+            {
+                "text": "Es existiert keine zentrale Instanz, die die Kommunikation koordiniert.",
+                "korrekt": false
+            },
+            {
+                "text": "Die Koordination der Kommunikation muss durch das Netz selbst gewährleistet werden.",
+                "korrekt": false
+            },
+            {
+                "text": "Es existiert eine strikte Trennung zwischen Diensterbringern und -konsumenten.",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Aussage zur Isolation von Threads ist richtig?",
+        "antworten": [
+            {
+                "text": "Threads in Prozessen voneinander isoliert",
+                "korrekt": false
+            },
+            {
+                "text": "Threads in Prozessen nicht voneinander isoliert",
+                "korrekt": true
+            },
+            {
+                "text": "Prozesse in Threads voneinander isoliert",
+                "korrekt": false
+            },
+            {
+                "text": "Prozesse in Threads nicht voneinander isoliert",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Worin besteht der Vorteil einer Baum-Topologie im Vergleich mit einem vermaschten Netz?",
+        "antworten": [
+            {
+                "text": "Weniger Kabel benötigt",
+                "korrekt": true
+            },
+            {
+                "text": "Erhöhte Redundanz und Ausfallsicherheit",
+                "korrekt": false
+            },
+            {
+                "text": "Geringere Latenzzeiten",
+                "korrekt": false
+            },
+            {
+                "text": "Bessere Skalierbarkeit",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Netzwerkstruktur passt am besten zu folgender Situation: (Feste Anzahl der Teilnehmer und irgendwo muss was gespeichert werden)?",
+        "antworten": [
+            {
+                "text": "Reines P2P",
+                "korrekt": false
+            },
+            {
+                "text": "Hybrides P2P",
+                "korrekt": false
+            },
+            {
+                "text": "Client-Server-Modell",
+                "korrekt": true
+            },
+            {
+                "text": "Server-Server-Modell",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Was ist der Unterschied zwischen serieller und paralleler Verarbeitung?",
+        "antworten": [
+            {
+                "text": "Parallele Verarbeitung findet auf mehreren Recheneinheiten statt.",
+                "korrekt": true
+            },
+            {
+                "text": "Serielle Verarbeitung findet auf mehreren Recheneinheiten statt.",
+                "korrekt": false
+            },
+            {
+                "text": "Bei paralleler Verarbeitung werden Aufgaben nacheinander ausgeführt.",
+                "korrekt": false
+            },
+            {
+                "text": "Serielle Verarbeitung kann mehrere Aufgaben gleichzeitig ausführen.",
+                "korrekt": false
+            }
+        ],
+        "code_snippet": ""
+    },
+    {
+        "frage": "Welche Phase gehört nicht zum TCP-Handshake?",
+        "antworten": [
+            {
+                "text": "SYN",
+                "korrekt": false
+            },
+            {
+                "text": "ACK",
+                "korrekt": false
+            },
+            {
+                "text": "SYN-ACK",
+                "korrekt": false
+            },
+            {
+                "text": "FIN",
+                "korrekt": true
+            }
+        ],
+        "code_snippet": ""
+    }
+]
