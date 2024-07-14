@@ -246,4 +246,4 @@ class ProjectSelection(QWidget):
 
 
     def show_easter_egg(self):
-        QMessageBox.information(self, 'Über', 'Entwickler: Der Pfiff\nEmail: xilefma@web.de\n\nErstellt für zukünftige EVA-Generationen.')
+        QMessageBox.information(self, 'Über', 'Entwickler: Der Pfiff\nEmail: derpfiff@proton.me\n\nErstellt für die nächsten Jahrgänge und auf das der Fragenkatalog sich weiterhin nicht groß ändert.\n\nFeedback und Bug Reports sind herzlich willkommen!\nTrage gerne weitere Fragen zusammen, entwickle das Tool weiter oder refactore den Code nach Belieben.\n\nHappy Coding und viel Erfolg beim Lernen! 🚀')
