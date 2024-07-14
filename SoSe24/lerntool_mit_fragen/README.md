@@ -3,9 +3,9 @@
 
 ## Beschreibung
 
-Das EVA-Lern-Tool ist eine Quiz-Anwendung, mit der du dich auch EVA vorbereiten kannst, Fragenkataloge können erstellt und erweitert werden. Die Anwendung ist in Python mit PyQt5 geschrieben.
+Das EVA-Lern-Tool ist eine Quiz-Anwendung, mit der du dich auf EVA vorbereiten kannst. Fragenkataloge können erstellt und erweitert werden. Die Anwendung ist in Python mit PyQt5 geschrieben.
 
-Diese Version enthält den Fragenkatalog 2024 mit 61 Fragen aus allen Studydrive-Dokumenten. Es wird kein Anspruch auf Richtigkeit und Vollständigkeit erhoben. Das Tool könnte buggy sein. Es wurde in weniger Zeit gebaut und ist weder vollständig noch qualitativ hochwertig gebaut.
+Diese Version enthält den Fragenkatalog 2024 mit 61 Fragen aus allen Studydrive-Dokumenten. Es wird kein Anspruch auf Richtigkeit und Vollständigkeit erhoben. Das Tool könnte buggy sein. Es wurde in kurzer Zeit entwickelt und ist weder vollständig noch qualitativ hochwertig gebaut.
 
 ## Installation
 
@@ -15,11 +15,32 @@ Diese Version enthält den Fragenkatalog 2024 mit 61 Fragen aus allen Studydrive
 
 ### Setup
 
+1. **Repository klonen**
 
-1. **Abhängigkeiten installieren**
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   git clone https://git.fsinf.informatik.uni-leipzig.de/material/entwicklung-verteilter-anwendungen.git
+   cd entwicklung-verteilter-anwendungen/SoSe24/lerntool_mit_fragen
+   ```
+
+2. **Virtuelle Umgebung einrichten und aktivieren**
+
+   - **Für Linux und macOS:**
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+   - **Für Windows:**
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+3. **Abhängigkeiten installieren**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Nutzung
 
@@ -28,7 +49,7 @@ Diese Version enthält den Fragenkatalog 2024 mit 61 Fragen aus allen Studydrive
 Um die Anwendung zu starten, einfach folgendes im Terminal eingeben:
 
 ```bash
-python 3 main.py
+python3 main.py
 ```
 
 ### Funktionen
@@ -43,7 +64,9 @@ python 3 main.py
   - **Umbenennen**: Erlaubt das Umbenennen des ausgewählten Katalogs.
   - **Zusammenfügen**: Ermöglicht das Zusammenfügen von zwei Katalogen.
   - **Löschen**: Löscht den ausgewählten Katalog.
-### Fragenmanager öffnen
+
+#### Fragenmanager öffnen
+
 Um den Fragenmanager zu öffnen, klicke mit der rechten Maustaste auf einen bestehenden Fragenkatalog und wähle "Fragen verwalten" aus dem Kontextmenü.
 
 #### Fragenmanager
