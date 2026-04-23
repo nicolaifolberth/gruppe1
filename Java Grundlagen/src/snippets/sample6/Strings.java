@@ -59,16 +59,15 @@ public class Strings {
 		System.out.println(name1);
 		System.out.println(name2);
 		System.out.println(name3);
-		
-		System.out.println(name1 == name2);
+		System.out.println("Test");
+
+        System.out.println("Test");
+
+        System.out.println(name1 == name2);
 		System.out.println(name1 == name3);
 		System.out.println(name2 == name3);
 
 		System.out.println(name1.equals(name2));
 		System.out.println(name1.equals(name3));
-		System.out.println(name2.equals(name3));
-		
-	}
-
-	
+    }
 }
